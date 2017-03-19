@@ -18,5 +18,6 @@ div{
 	border-radius:5px;
 	}
 img{
-	height:auto
+	height:auto;
+	position:center;
 }
