@@ -1,23 +1,43 @@
-html{
-	background-color:darkblue;
+html, body{}
+	margin:1px;
+	padding: 2px;
+	height:100%;
+	width:100%;
+	background-color:white;
+	text-align:center;
 }
+a:hover {
+    font-style: bold;
+    border:1px solid grey;
+}
+#mainBorder{
+	float:top;
+	height:50px;
+	width:100%;
+	position:absolute;
+	border: 1px solid blue;
+}
+#leftBorder{
+	display:inline-block;
+	margin:15px;
+	float:left;
+	position:relative;
+	
+	
+}
+#rightBorder{
+	display:inline-block;
+	margin:15px 15px 15px 2px;
+	float:right;
+	position:relative;
+	
+	
+}
+#bottomBorder{
+	display:inline-block;
+	margin:15px 15px 15px 2px;
+    float:center; 
+	position:relative;
+	/* border: 1px solid black; */
 
-
-body{
-	background-color:white;
-	}
-p{
-	color:grey;
-	}
-div{
-
-	width:500px;
-	height:500px;																										
-	background-color:white;
-	border:2px solid grey;
-	border-radius:5px;
-	}
-img{
-	height:auto;
-	position:center;
 }
