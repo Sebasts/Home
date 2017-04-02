@@ -1,9 +1,9 @@
-html, body{}
+html, body{
 	margin:1px;
 	padding: 2px;
 	height:100%;
 	width:100%;
-	background-color:white;
+	background-color: #D3D3D3; /*light gray */;
 	text-align:center;
 }
 a:hover {
@@ -11,7 +11,6 @@ a:hover {
     border:1px solid grey;
 }
 #mainBorder{
-	float:top;
 	height:50px;
 	width:100%;
 	position:absolute;
@@ -36,8 +35,18 @@ a:hover {
 #bottomBorder{
 	display:inline-block;
 	margin:15px;
- 	left:30%;
+ 	left:0%;
 	position:relative;
+	float:center;
 	/* border: 1px solid black; */
 
+}
+#blogPost{
+	margin:60px 15px 15px 15px;
+	width:80%;
+	border:2px solid #191970; /*midnight blue*/
+	clear:both;
+	float:left;
+	text-align:left;
+	height: 400px;
 }
