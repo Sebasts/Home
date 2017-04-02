@@ -35,8 +35,8 @@ a:hover {
 }
 #bottomBorder{
 	display:inline-block;
-	margin:15px 15px 15px 2px;
-    float:center; 
+	margin:15px;
+ 	left:30%;
 	position:relative;
 	/* border: 1px solid black; */
 
