@@ -10,6 +10,9 @@ a:hover {
     font-style: bold;
     border:1px solid grey;
 }
+p{
+	padding: 3px;
+}
 #mainBorder{
 	height:50px;
 	width:100%;
